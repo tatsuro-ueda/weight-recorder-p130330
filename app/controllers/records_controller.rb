@@ -2,7 +2,7 @@ class RecordsController < ApplicationController
   # GET /records
   # GET /records.json
   def index
-    @records = Record.all
+    @records = Record.order('created_at DESC')
 
     respond_to do |format|
       format.html # index.html.erb
@@ -24,7 +24,9 @@ class RecordsController < ApplicationController
   # GET /records/new
   # GET /records/new.json
   def new
-    @record = Record.new(user: current_user)
+    #@record = Record.new(user: current_user)
+    #@record = current_user.records.new
+    @record = Record.new
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,7 +42,8 @@ class RecordsController < ApplicationController
   # POST /records
   # POST /records.json
   def create
-    @record = Record.new(params[:record])
+    #@record = Record.new(params[:record])
+    @record = current_user.records.new(params[:record])
 
     respond_to do |format|
       if @record.save

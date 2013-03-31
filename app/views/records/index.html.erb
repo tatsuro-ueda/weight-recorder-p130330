@@ -5,7 +5,7 @@
     <th>Email</th>
     <th>Weight</th>
     <th>Memo</th>
-    <th>Created</th>
+    <th>Date</th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,6 +16,7 @@
     <td><%= record.user.email %></td>
     <td><%= record.weight %></td>
     <td><%= record.memo %></td>
+    <td><%= record.created_at %></td>
     <td><%= link_to 'Show', record %></td>
     <td><%= link_to 'Edit', edit_record_path(record) %></td>
     <td><%= link_to 'Destroy', record, method: :delete, data: { confirm: 'Are you sure?' } %></td>
