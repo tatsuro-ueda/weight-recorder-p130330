@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-    <th>Email</th>
-    <th>Weight</th>
-    <th>Memo</th>
     <th>Date</th>
+    <th>Weight</th>
+    <th>Email</th>
+    <th>Memo</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,10 +13,10 @@
 
 <% @records.each do |record| %>
   <tr>
-    <td><%= record.user.email %></td>
-    <td><%= record.weight %></td>
-    <td><%= record.memo %></td>
     <td><%= record.created_at %></td>
+    <td><%= record.weight %></td>
+    <td><%= record.user.email %></td>
+    <td><%= record.memo %></td>
     <td><%= link_to 'Show', record %></td>
     <td><%= link_to 'Edit', edit_record_path(record) %></td>
     <td><%= link_to 'Destroy', record, method: :delete, data: { confirm: 'Are you sure?' } %></td>
