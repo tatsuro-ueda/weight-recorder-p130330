@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53d7e8b-ad7c-46ee-8437-65155894917f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/records/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/records/index.html.erb" afterPath="$PROJECT_DIR$/app/views/records/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/records_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/records_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weight-recorder-p130330.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365134350885" ignored="false" />
+    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365164033841" ignored="false" />
     <file path="/Ruby Console" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364608885249" ignored="false" />
     <file path="/_form.html.erb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620196291" ignored="false" />
     <file path="/records_controller.rb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620718324" ignored="false" />
@@ -32,10 +34,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="records_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="45" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.53571427">
+            <state line="5" column="24" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="21" selection-end="42" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -50,22 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="records.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/records.js.coffee">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="32" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1364865818000" expanded="true" signature="983:1030" placeholder="..." />
-                <marker date="1364865818000" expanded="true" signature="986:1030" placeholder="part1: 'Hello'..." />
-              </folding>
+            <state line="2" column="3" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="59" selection-start="442" selection-end="454" vertical-scroll-proportion="-13.125">
+            <state line="19" column="43" selection-start="553" selection-end="553" vertical-scroll-proportion="0.40331492">
               <folding />
             </state>
           </provider>
@@ -91,15 +99,6 @@
       </file>
       <file leaf-file-name="sessions.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sessions.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -151,7 +150,6 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130330052939_create_records.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/record.rb" />
         <option value="$PROJECT_DIR$/app/views/records/show.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -161,8 +159,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/records_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/records/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/records/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -902,7 +901,11 @@
       <created>1365134354009</created>
       <updated>1365134354009</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="データを入力すると一覧画面に戻るようにした">
+      <created>1365164038347</created>
+      <updated>1365164038347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -927,19 +930,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="22" width="1322" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29075235" sideWeight="0.68049157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29075235" sideWeight="0.67127496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31950846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31950846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -991,7 +994,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sessionの有効期限を3ヶ月にした" />
+    <option name="LAST_COMMIT_MESSAGE" value="データを入力すると一覧画面に戻るようにした" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1008,16 +1011,12 @@
     <MESSAGE value="before_filterとskip_before_filterを実装した" />
     <MESSAGE value="backboneとunderscoreへの依存を消した" />
     <MESSAGE value="sessionの有効期限を3ヶ月にした" />
+    <MESSAGE value="データを入力すると一覧画面に戻るようにした" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/records/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1037,13 +1036,6 @@
         <state line="8" column="24" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="33" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
@@ -1055,8 +1047,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="32" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1364865818000" expanded="true" signature="983:1030" placeholder="..." />
-            <marker date="1364865818000" expanded="true" signature="986:1030" placeholder="part1: 'Hello'..." />
+            <marker date="1364865818000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364865818000" expanded="true" signature="-1:-1" placeholder="part1: 'Hello'..." />
           </folding>
         </state>
       </provider>
@@ -1110,16 +1102,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/records/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="442" selection-end="454" vertical-scroll-proportion="-13.125">
+        <state line="3" column="0" selection-start="21" selection-end="42" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="45" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.53571427">
+        <state line="5" column="24" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/records/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="553" selection-end="553" vertical-scroll-proportion="0.40331492">
           <folding />
         </state>
       </provider>

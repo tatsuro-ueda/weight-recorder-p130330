@@ -3,6 +3,7 @@ class RecordsController < ApplicationController
   # GET /records.json
   def index
     @records = Record.order('created_at DESC')
+    @record = Record.new
 
     respond_to do |format|
       format.html # index.html.erb
