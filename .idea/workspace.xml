@@ -7,7 +7,7 @@
     </list>
     <ignored path="weight-recorder-p130330.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365831649770" ignored="false" />
+    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365831844687" ignored="false" />
     <file path="/Ruby Console" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364608885249" ignored="false" />
     <file path="/_form.html.erb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620196291" ignored="false" />
     <file path="/records_controller.rb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620718324" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4400978">
+            <state line="9" column="6" selection-start="241" selection-end="241" vertical-scroll-proportion="0.37931034">
               <folding />
             </state>
           </provider>
@@ -759,7 +759,11 @@
       <created>1365831653758</created>
       <updated>1365831653758</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ソートの副キーをcreated_atにした(2)">
+      <created>1365831848232</created>
+      <updated>1365831848232</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -791,12 +795,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30485892" sideWeight="0.67127496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30485892" sideWeight="0.265745" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.734255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.734255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -848,7 +852,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ソートの副キーをcreated_atにした" />
+    <option name="LAST_COMMIT_MESSAGE" value="ソートの副キーをcreated_atにした(2)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -870,6 +874,7 @@
     <MESSAGE value="ユーザ登録できるようにした" />
     <MESSAGE value="ソートが一部できるようになった" />
     <MESSAGE value="ソートの副キーをcreated_atにした" />
+    <MESSAGE value="ソートの副キーをcreated_atにした(2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -974,7 +979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4400978">
+        <state line="9" column="6" selection-start="241" selection-end="241" vertical-scroll-proportion="0.37931034">
           <folding />
         </state>
       </provider>
