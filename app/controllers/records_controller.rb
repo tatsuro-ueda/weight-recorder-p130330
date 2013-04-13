@@ -7,7 +7,11 @@ class RecordsController < ApplicationController
 
     # テーブルのソート
     sort_column = params[:sort_column].nil? ? 'created_at' : params[:sort_column]
-    @records = Record.order(sort_column + ' DESC')
+    unless sort_column == 'created_at'
+      @records = Record.order(sort_column + ' DESC')
+    else
+      @records = Record.order(sort_column + ' DESC', 'created_at DESC')
+    end
 
     respond_to do |format|
       format.html # index.html.erb
