@@ -10,7 +10,7 @@ class RecordsController < ApplicationController
     unless sort_column == 'created_at'
       @records = Record.order(sort_column + ' DESC')
     else
-      @records = Record.order(sort_column + ' DESC', 'created_at DESC')
+      @records = Record.order(sort_column + ' DESC, created_at DESC')
     end
 
     respond_to do |format|

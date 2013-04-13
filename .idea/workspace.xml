@@ -7,7 +7,7 @@
     </list>
     <ignored path="weight-recorder-p130330.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365831586797" ignored="false" />
+    <file path="/Dummy.txt" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1365831649770" ignored="false" />
     <file path="/Ruby Console" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364608885249" ignored="false" />
     <file path="/_form.html.erb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620196291" ignored="false" />
     <file path="/records_controller.rb" changelist="e53d7e8b-ad7c-46ee-8437-65155894917f" time="1364620718324" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="records_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="69" selection-start="405" selection-end="405" vertical-scroll-proportion="0.4400978">
+            <state line="12" column="50" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4400978">
               <folding />
             </state>
           </provider>
@@ -755,7 +755,11 @@
       <created>1365830395903</created>
       <updated>1365830395903</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ソートの副キーをcreated_atにした">
+      <created>1365831653758</created>
+      <updated>1365831653758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -844,7 +848,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ソートが一部できるようになった" />
+    <option name="LAST_COMMIT_MESSAGE" value="ソートの副キーをcreated_atにした" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -865,6 +869,7 @@
     <MESSAGE value="一覧画面にデータ入力画面を付けた" />
     <MESSAGE value="ユーザ登録できるようにした" />
     <MESSAGE value="ソートが一部できるようになった" />
+    <MESSAGE value="ソートの副キーをcreated_atにした" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -969,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/records_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="405" selection-end="405" vertical-scroll-proportion="0.4400978">
+        <state line="12" column="50" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4400978">
           <folding />
         </state>
       </provider>
