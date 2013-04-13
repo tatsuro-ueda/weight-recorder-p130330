@@ -2,8 +2,12 @@ class RecordsController < ApplicationController
   # GET /records
   # GET /records.json
   def index
-    @records = Record.order('created_at DESC')
+    # 新規レコード
     @record = Record.new
+
+    # テーブルのソート
+    sort_column = params[:sort_column].nil? ? 'created_at' : params[:sort_column]
+    @records = Record.order(sort_column + ' DESC')
 
     respond_to do |format|
       format.html # index.html.erb

@@ -8,9 +8,9 @@
 
 <table>
   <tr>
-    <th>Date</th>
-    <th>Weight</th>
-    <th>Email</th>
+    <th><%= link_to "Date", records_url(sort_column: "created_at") %></th>
+    <th><%= link_to "Weight", records_url(sort_column: "weight") %></th>
+    <th><%= link_to "Email", records_url(sort_column: "user_id") %></th>
     <th>Memo</th>
     <th></th>
     <th></th>
